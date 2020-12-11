@@ -3,11 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
-    <Version>0.0.0</Version>
+    <Version>0.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Hisham Maudarbocus</Authors>
     <Copyright>Copyright (c) 2020 Hisham Maudarbocus</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/samsam07/LiteWare.Wpf</PackageProjectUrl>
+    <Description>Utility and helper library for WPF.</Description>
+    <PackageTags>liteware wpf</PackageTags>
+    <PackageReleaseNotes>Initial release of LiteWare.Wpf</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
